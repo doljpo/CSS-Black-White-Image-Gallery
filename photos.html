@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Black & White Photo Grid</title>
+	<link rel="stylesheet" type="text/css" href="./css/photos.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div id="app">
+		<p>{{ galleryTitle }}</p>
+		
+		<img v-for="image in images" :src="image.src" :alt="image.alt"/>
+	</div>
+
+
+	<!-- Massimo Margagnoni -->
+
+	<!-- Giuseppe Milo -->
+	<img src="./img/Giuseppe_Milo_photo01.jpg" title="Black and white photo from airport by Giuseppe Milo">
+	<img src="./img/Giuseppe_Milo_photo02.jpg" title="Black and white photo from man cycling by Giuseppe Milo">
+	<img src="./img/Giuseppe_Milo_photo03.jpg" title="Black and white photo from man walking by Giuseppe Milo">
+
+	<!-- GörlitzPhotography -->
+	<img src="./img/Gorlitz_Photography_photo01.jpg" title="Black and white photo of a lock by Gorlitz Photography">
+	<img src="./img/Gorlitz_Photography_photo02.jpg" title="Black and white photo of a car by Gorlitz Photography">
+	<img src="./img/Gorlitz_Photography_photo03.jpg"
+		title="Black and white photo of a man on a ladder by Gorlitz Photography">
+	<img src="./img/Gorlitz_Photography_photo04.jpg" title="Black and white photo of a lock by Gorlitz Photography">
+	<img src="./img/Gorlitz_Photography_photo05.jpg" title="Black and white photo of a car by Gorlitz Photography">
+	<img src="./img/Gorlitz_Photography_photo06.jpg"
+		title="Black and white photo of a man on a ladder by Gorlitz Photography">
+
+	<label>All Photos Licensed Under Creative Commons 2.0</label>
+	<a
+		href="https://creativecommons.org/licenses/by/2.0/legalcode">https://creativecommons.org/licenses/by/2.0/legalcode</a>
+
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="./scripts/main.js"></script>
+</body>
+
+</html>
