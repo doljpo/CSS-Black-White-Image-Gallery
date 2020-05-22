@@ -1,2 +1,3 @@
-# web-developer-bootcamp-2.0
-Projects from web-developer-bootcamp with some enhancement as I learn more
+# Black and White Gallery
+
+Some black and white photos displayed with simple html and css
